@@ -1,0 +1,52 @@
+/* HEADER STYLE */
+#logo h1 {
+  font-family: 'Staatliches', cursive;
+  color: white;
+  padding: 0;
+  font-size: 50px;
+  margin: 0;
+  margin-top: 2vh;
+  margin-left: 4vw;
+}
+#logo i {
+  font-family: 'Staatliches', cursive;
+  color: white;
+  margin-left: 3.5vw;
+}
+.blue-bg {
+  position: fixed;
+  background: url('../../canva.jpg');
+  background-size: cover;
+  background-color: #58aff6;
+  top: 0;
+  height: 400px;
+  width: 100vw;
+  z-index: -1;
+  overflow-x: hidden;
+}
+.white-bg {
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  min-height: 700px;
+  margin: 210px 0px;
+  width: 100vw;
+  /* height: 50vh; */
+
+  transform: skewY(5deg);
+  z-index: -1;
+}
+.content {
+  position: absolute;
+  top: 0;
+  margin: 250px 10vw;
+  max-width: 60vw;
+  background-color: transparent;
+}
+.shadow {
+  box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+#logo img {
+  border-radius: 100%;
+}
+/* HEADER STYLE */

@@ -1,0 +1,24 @@
+#buscaRapidaH2 {
+  border: solid 2px blue;
+  max-width: 1240px;
+  padding: 5px;
+  text-align: center;
+  margin: 2px;
+}
+
+select,
+input {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin: 5px;
+  cursor: pointer;
+}
+.enabled {
+  opacity: 1;
+}
+.disabled {
+  opacity: 0;
+  cursor: not-allowed;
+  pointer-events: none;
+}
